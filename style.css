@@ -1,0 +1,338 @@
+.nav-link{
+    color: #01095E;
+}
+body{
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+}
+.color-white{
+    color: white;
+}
+.color-w{
+    color: #e9e7e7;
+}
+.color-y{
+    color: #FFC800 !important;
+}
+.color-sb{
+    color:#7EA0FF;
+}
+.color-db{
+    color:#01095E;
+}
+.color-gr{
+    color:#929ac5;
+}
+.d-flex{
+    display: flex;    
+}
+.mar-l-twenty{
+    margin-left: 20px;
+}
+.navbar{
+    font-size: 13px;
+    font-family: "Josefin Sans" !important;
+
+}
+.navbar-toggler{
+    color: white !important;
+    background-color: black;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+.heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color:#01095E ;
+}
+.custom-heading{
+    font-weight: 600;
+    font-size:2.6vw;
+}
+.custom-heading-u{
+    text-decoration-color: #FFC800; 
+    text-decoration-thickness:0.1em;
+}
+.custom-heading-p{
+    font-size: 1vw;
+    margin-bottom: 35px;
+}
+.c-button{
+    background-color: #09091b;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+#car-sec{
+    /* height: 96vh;  */
+    /* background-image: url("https://preview.colorlib.com/theme/tralive/assets/img/hero/h1_hero1.png.webp"); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+#car-background{
+    position: relative;
+    width: 100%;
+}
+#car-img{
+    position: absolute;
+    padding-bottom: 50%;
+    width: 50%;
+    margin-top: 50%;
+}
+#card-heading-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+.card-heading-sec-h1{
+    font-weight: 600;
+    font-size:2.5vw;
+    color:#01095E ;
+}
+#card-sec{
+    display: flex;
+    column-gap: 1.5%;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.card{
+    border: 0px solid rgba(0,0,0,.125);
+    width: 22rem;
+}
+.card-body{
+    border: none;
+    box-shadow: 5px 2px 15px #e9e7e7;
+}
+.card-title{
+    color: #00095E;
+    font-size: 17px;
+    font-weight: 700;
+}
+.card-img-top {
+    
+    
+}
+.custom-card-body
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    font-family: "Josefin Sans" !important;
+}
+.custom-card-f{
+    display: flex;
+    align-items: baseline;
+}
+#blog-sec{
+    display: flex;
+    column-gap: 5%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.blog-sec-h1{
+    font-weight: 800;
+    font-size:2vw;color:#01095E;
+}
+.blog-sec-m{
+    margin-bottom: 50px;
+
+}
+.blog-sec-p{
+    color: #6c7c85;
+    margin-bottom: 50px;
+    line-height: 2.0;
+}
+#colored-sec{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    background-image:linear-gradient(to right, #6B92FF , #F998D9);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.colored-sec-h1{
+    font-family: "Josefin Sans" !important;
+    font-size: 3vw; margin-bottom:50px;
+}
+.colored-sec-h-2{
+    font-size: 1vw;
+    line-height: 3vh;
+    width: 35%;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+#video-sec{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.v-image{
+    
+    width: 100%;
+}
+.img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered-v-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
+.centered {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+#image-sec{
+    display: flex;
+    width: auto;
+}
+.i-images{
+    height: 300px;
+    width: 20%;
+}
+#footer{
+    padding: 5%;
+    background-image:linear-gradient(to right, #192C6A , #0D1738);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    color: white;
+    
+    padding-left: 15vw;
+    padding-right: 15vw;
+
+}
+.social-img{
+    margin: 10px;
+    height: 20px;
+    width: 20px;
+    
+}
+.t-data
+{
+    color: #929ac5;
+}
+.fitem{
+   
+}
+.item1-img{
+    margin-bottom: 25px;
+}
+
+/* @media (max-width: 992px) {
+    #footer{
+        flex-wrap: wrap;
+    }
+} */
+@media only screen and (max-width: 768px) {
+    #blog-sec{
+        flex-direction: column;
+    }
+    #footer{
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 10%;
+    }
+    .colored-sec-h1{
+        font-size: 6vw;
+    }
+    .colored-sec-h-2{
+        font-size: 3vw;
+        width: 100%;
+    }
+  
+
+}
+
+@media only screen and (max-width: 600px) {
+.custom-heading{
+    font-size: 5vw;
+}
+.custom-heading-p{
+    font-size: 3vw;
+}
+.c-button{
+ 
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    
+}
+
+#car-img{
+    width: 90%;
+}
+.card{
+    width: 24rem;
+}
+.card-heading-sec-h1{
+    font-size: 5vw;
+}
+#blog-sec-text{
+    padding: 5%;
+}
+.blog-sec-h1{
+    font-size: 6vw;
+
+}
+#blog-sec-img{
+    width: 100% !important;
+}
+#colored-sec{
+    background-image:linear-gradient(to right, #6B92FF ,#A195F0 );
+    /* padding-left: 15%;
+    padding-right: 15%; */
+}
+/* .colored-sec-h1{
+    font-size: 6vw;
+}
+.colored-sec-h-2{
+    font-size: 3vw;
+    width: 100%;
+} */
+
+#video-sec{
+    padding: 20px;
+}
+
+
+.i-images{
+    height: 200px;
+    width: 50%;
+}
+.v-image{
+    height: 400px;
+    width: 100%;
+}
+
+.fitem{
+ margin-bottom: 50px;   
+}
+
+} 
