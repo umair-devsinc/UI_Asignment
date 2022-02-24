@@ -1,16 +1,4 @@
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, em, img, strong, sub, sup, b, i, dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figure, figcaption, footer, header, hgroup, 
-menu, nav, output, section, time {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
+
 
 .nav-link{
     color: #01095E;
@@ -44,18 +32,42 @@ body{
     margin-left: 20px;
 }
 .navbar{
-    font-size: 13px;
-    font-family: "Josefin Sans" !important;
+    font-size: 18px;
+    
 
 }
+.nav-link{
+    font-family: "Josefin Sans",sans-serif !important;  
+    font-size: 1vw;
+    /* font-weight: bold; */
+}
+.me-4-nav {
+    margin-right: 3.5rem!important;
+}
+.mb-5-nav {
+    margin-bottom: 10vw!important;
+}
+
 .navbar-toggler{
     color: white !important;
     background-color: black;
+    margin-right: 20px;
 }
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
   
+.nav-button{
+    background-color: #FFC800;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.1vw;
+    margin-right: 65px;
+    margin-top: 15px;
+
+}
 .heading{
     display: flex;
     align-items: center;
@@ -63,27 +75,41 @@ body{
     color:#01095E ;
 }
 .custom-heading{
+    font-family: 'Josefin Sans', sans-serif !important;
     font-weight: 600;
-    font-size:2.6vw;
+    font-size:4.2vw;
 }
 .custom-heading-u{
     text-decoration-color: #FFC800; 
     text-decoration-thickness:0.1em;
-}
-.custom-heading-p{
-    font-size: 1vw;
-    margin-bottom: 35px;
-}
-.c-button{
-    background-color: #09091b;
-    color: white;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 50px;
-    padding-right: 50px;
     
 }
-#car-sec{
+.custom-heading-p{
+    font-size: 1.5vw;
+    margin-bottom: 35px;
+}
+.line{
+    z-index: -1;
+    background-color: #FFC800; 
+    width: 100%;
+    height: 0.5vw;
+    position: relative;
+    bottom: 2vw;
+   
+}
+.c-button{
+    background-image:linear-gradient( #00095E, #0C1636);
+    color: white;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    
+}
+.c-button:hover{
+    color:white;
+}
+.car-sec{
     /* height: 96vh;  */
     /* background-image: url("https://preview.colorlib.com/theme/tralive/assets/img/hero/h1_hero1.png.webp"); */
     display: flex;
@@ -91,17 +117,17 @@ body{
     align-items: center;
     margin-bottom: 5%;
 }
-#car-background{
+.car-background{
     position: relative;
     width: 100%;
 }
-#car-img{
+.car-img{
     position: absolute;
     /* padding-bottom: 50%; */
     width: 50%;
     /* margin-top: 50%; */
 }
-#card-heading-sec{
+.card-heading-sec{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,27 +135,32 @@ body{
     margin-bottom: 2%;
 }
 .card-heading-sec-h1{
-    font-weight: 600;
-    font-size:2.5vw;
+    font-family: "Josefin Sans",sans-serif !important;  
+
+    font-size:4.1vw;
     color:#01095E ;
 }
-#card-sec{
+.card-heading-sec-p{
+    font-size:1.5vw;
+}
+.card-sec{
     display: flex;
-    column-gap: 1.5%;
+    column-gap: 2.8%;
     justify-content: center;
     margin-bottom: 50px;
 }
 .card{
     border: 0px solid rgba(0,0,0,.125);
-    width: 22rem;
+    width: 34rem;
 }
 .card-body{
     border: none;
     box-shadow: 5px 2px 15px #e9e7e7;
+    padding: 25px;
 }
 .card-title{
     color: #00095E;
-    font-size: 17px;
+    font-size: 25px;
     font-weight: 700;
 }
 .card-img-top {
@@ -141,22 +172,40 @@ body{
     display: flex;
     justify-content: space-between;
     margin-bottom: 5%;
-    font-family: "Josefin Sans" !important;
+    /* font-family: "Josefin Sans" !important; */
+}
+.c-btn-sm {
+    padding: 0.25rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    border-radius: 0.2rem;
 }
 .custom-card-f{
     display: flex;
     align-items: baseline;
+    font-size: 18px;
 }
-#blog-sec{
+.blog-sec{
     display: flex;
     column-gap: 5%;
     justify-content: center;
     align-items: center;
     margin-bottom: 5%;
+    padding-left: 20px;
+}
+.blog-sec-img{
+    width: 40% !important;
+}
+.blog-sec-text{
+    width: 40% !important;
+    
 }
 .blog-sec-h1{
+    font-family: "Josefin Sans",sans-serif;
     font-weight: 800;
-    font-size:2vw;color:#01095E;
+    font-size:3.5vw;
+    color:#01095E;
+    width: 88%;
 }
 .blog-sec-m{
     margin-bottom: 50px;
@@ -165,9 +214,11 @@ body{
 .blog-sec-p{
     color: #6c7c85;
     margin-bottom: 50px;
-    line-height: 2.0;
+    line-height: 1.6;
+    font-size: 1.3vw;
+    width: 88%;
 }
-#colored-sec{
+.colored-sec{
     padding-top: 7%;
     padding-bottom: 7%;
     background-image:linear-gradient(to right, #6B92FF , #F998D9);
@@ -179,64 +230,89 @@ body{
     margin-bottom: 5%;
 }
 .colored-sec-h1{
-    font-family: "Josefin Sans" !important;
-    font-size: 3vw; margin-bottom:50px;
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 3.5vw; 
+    margin-bottom:50px;
+    font-weight: 700;
 }
 .colored-sec-h-2{
-    font-size: 1vw;
-    line-height: 2vw;
-    width: 35%;
+    font-size: 1.6vw;
+    line-height: 2.3vw;
+    width: 55%;
     text-align: center;
     margin-bottom: 50px;
 
 }
 
-#video-sec{
+.video-sec{
     display: flex;
     justify-content: center;
     margin-bottom: 5%;
 }
 .v-image{
     
-    width: 100%;
+    width: 90vw;
 }
 .img-container {
     position: relative;
     text-align: center;
     color: white;
   }
-  .centered-v-icon {
+.centered-v-icon {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   } 
-.centered {
+.v-centered {
     position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-#image-sec{
+.image-sec{
     display: flex;
+    /* flex-wrap: wrap; */
     width: auto;
 }
 .i-images{
     height: 300px;
     width: 20%;
 }
-#footer{
-    padding: 5%;
+.footer-p{
     background-image:linear-gradient(to right, #192C6A , #0D1738);
+
+}
+.c-paragraph{
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.footer{
+    padding-top: 7vw;
+    padding-bottom: 7vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items:flex-start;
     color: white;
     
-    padding-left: 15vw;
-    padding-right: 15vw;
+    
 
+}
+.f-heading{
+    margin-bottom: 25px;
+}
+.f-label{
+    display: flex;
+    justify-content: center;
+    color: #929ac5;
+    padding-bottom: 20px;
+
+}
+.heart {
+    height: 18px;
+    width: 18px;
+    margin: 2px 5px 0px 5px;
 }
 .social-img{
     margin: 10px;
@@ -246,39 +322,94 @@ body{
 }
 .t-data
 {
-    color: #929ac5;
+    color: #929ac5; 
 }
 .fitem{
    
+}
+.item4-num{
+    font-size: 22px;
 }
 .item1-img{
     margin-bottom: 25px;
 }
 
 /* @media (max-width: 992px) {
-    #footer{
+    .footer{
         flex-wrap: wrap;
     }
 } */
+@media only screen and (min-width: 2400px){
+  body{
+      width: 2400px;
+      margin: auto;
+  }
+  .v-image{
+      width: 2400px;
+  }
+  
+}
 @media only screen and (max-width: 768px) {
-    #blog-sec{
+    .mb-5-nav {
+        margin-bottom: 2rem!important;
+    }
+    .line{
+        height: 1.2vw;
+        bottom: 3vw;
+    }
+    .card-heading-sec-p{
+        font-size:3vw;
+    }
+    .card-title{
+        font-size: 15px;
+    }
+    .c-btn-sm {
+        font-size: 0.8rem;
+    }
+    .blog-sec{
         flex-direction: column;
     }
-    #footer{
+    .blog-sec-img{
+        width: 80% !important;
+    }
+    .blog-sec-text{
+        width: 100% !important;
+        
+    }
+    .blog-sec-h1{
+        font-size: 4.5vw;
+    
+    }
+    .blog-sec-p{
+        color: .6c7c85;
+        margin-bottom: 50px;
+        line-height: 1.6;
+        font-size: 4.3vw;
+    }
+    .image-sec{
+        flex-wrap: wrap;
+    }
+    .footer{
         flex-direction: column;
         justify-content: space-between;
         padding-left: 5%;
         padding-right: 5%;
         padding-top: 10%;
     }
+    
     .colored-sec-h1{
         font-size: 6vw;
     }
     .colored-sec-h-2{
         font-size: 3vw;
         line-height: 4vw;
-        width: 100%;
+        width: 95%;
     }
+   .f-label{
+       padding: 20px;
+       font-size: 2.5vw;
+       text-align: center;
+   }
   
 
 }
@@ -300,7 +431,7 @@ body{
     
 }
 
-#car-img{
+.car-img{
     width: 90%;
 }
 .card{
@@ -309,17 +440,14 @@ body{
 .card-heading-sec-h1{
     font-size: 5vw;
 }
-#blog-sec-text{
-    padding: 5%;
+.blog-sec-text{
+    padding: 2%;
 }
-.blog-sec-h1{
-    font-size: 6vw;
 
-}
-#blog-sec-img{
+.blog-sec-img{
     width: 100% !important;
 }
-#colored-sec{
+.colored-sec{
     background-image:linear-gradient(to right, #6B92FF ,#A195F0 );
     /* padding-left: 15%;
     padding-right: 15%; */
@@ -332,7 +460,7 @@ body{
     width: 100%;
 } */
 
-#video-sec{
+.video-sec{
     padding: 20px;
 }
 
