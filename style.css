@@ -153,7 +153,7 @@ body{
     display: flex;
     column-gap: 2.8%;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 12rem;
 }
 .card{
     border: 0px solid rgba(0,0,0,.125);
@@ -377,7 +377,8 @@ body{
     font-size: 5rem;
   }
   .line{
-      bottom: 1vw;
+      bottom: 2rem;
+      height: 0.2vw;
   }
  .custom-heading-p{
     font-size: 1rem;
