@@ -371,7 +371,7 @@ body{
       width: 2000px;
   }
   .car-img{
-      width: 25%;
+      width: 50rem;
   }
   .custom-heading{
     font-size: 5rem;
@@ -389,7 +389,7 @@ body{
     padding-left: 2vw;
     padding-right: 2vw;
     font-size: 1rem;
-    
+    margin-bottom: 10rem;
 }
   .card-heading-sec-h1{
     font-size: 5rem;
