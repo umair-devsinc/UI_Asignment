@@ -357,11 +357,14 @@ body{
       width: 2000px;
       margin: auto;
   }
+  .mb-5-nav {
+    margin-bottom: 10rem!important;
+}
   .nav-link{
-      font-size: 0.6vw;
+      font-size: 1rem;
   }
   .nav-button{
-    font-size: 0.6vw;
+    font-size: 1rem;
 
   }
   .v-image{
@@ -371,30 +374,30 @@ body{
       width: 25%;
   }
   .custom-heading{
-    font-size: 2vw;
+    font-size: 5rem;
   }
   .line{
       bottom: 1vw;
   }
  .custom-heading-p{
-    font-size: 1vw;
+    font-size: 1rem;
   }
   .c-button{
     padding-top: 0.5vw;
     padding-bottom: 0.5vw;
     padding-left: 2vw;
     padding-right: 2vw;
-    font-size: 1vw;
+    font-size: 1rem;
     
 }
   .card-heading-sec-h1{
-    font-size: 2vw;
+    font-size: 5rem;
 }
 .card-heading-sec-p{
-    font-size:1vw;
+    font-size:1rem;
 }
 .blog-sec-h1{
-    font-size: 2vw;
+    font-size: 5rem;
 
 }
 .blog-sec-p{
@@ -402,19 +405,19 @@ body{
     font-size: 0.5vw;
 }
 .blog-sec-btn{
-    font-size: 1vw;
+    font-size: 2rem;
 }
 .colored-sec-h1{
-    font-size: 2vw;
+    font-size: 5rem;
 }
 .colored-sec-h-2{
-    font-size: 0.5vw;
+    font-size: 1.5rem;
     line-height: 1vw;
   
 }
 .v-centered {
     /* top:76%; */
-    font-size: 1vw;
+    font-size: 4rem;
 }
 
 }
