@@ -199,7 +199,7 @@ body{
     column-gap: 5%;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5%;
+    margin-bottom: 5vw;
     padding-left: 20px;
 }
 .blog-sec-img{
@@ -388,6 +388,7 @@ body{
     }
     .blog-sec{
         flex-direction: column;
+        margin-bottom: 15vw;
     }
     .blog-sec-img{
         width: 80% !important;
