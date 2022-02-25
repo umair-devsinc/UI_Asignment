@@ -360,6 +360,12 @@ body{
   }
   
 }
+@media only screen and (max-width: 1000px) {
+    .v-centered {
+        top:76%;
+        font-size: 4vw;
+    }
+}
 @media only screen and (max-width: 768px) {
     .mb-5-nav {
         margin-bottom: 2rem!important;
