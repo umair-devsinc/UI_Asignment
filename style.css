@@ -51,6 +51,10 @@ body{
 .mb-5-nav {
     margin-bottom: 10vw!important;
 }
+.menu{
+
+    padding-right: 0.5rem;
+}
 
 .navbar-toggler{
     color: white !important;
