@@ -36,6 +36,10 @@ body{
     
 
 }
+.logo-marg {
+    margin-top: 0vw;
+    margin-left: 3vw;
+}
 .nav-link{
     font-family: "Josefin Sans",sans-serif !important;  
     font-size: 1vw;
@@ -132,7 +136,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 2%;
+    margin-bottom: 2vw;
 }
 .card-heading-sec-h1{
     font-family: "Josefin Sans",sans-serif !important;  
@@ -159,9 +163,14 @@ body{
     padding: 25px;
 }
 .card-title{
+    font-family: "Josefin Sans",sans-serif;
     color: #00095E;
     font-size: 25px;
     font-weight: 700;
+}
+.c-amount{
+    font-family: "Josefin Sans",sans-serif;
+
 }
 .card-img-top {
     
@@ -265,8 +274,10 @@ body{
     transform: translate(-50%, -50%);
   } 
 .v-centered {
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 2.5vw;
     position: absolute;
-    top: 70%;
+    top: 68%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -276,7 +287,7 @@ body{
     width: auto;
 }
 .i-images{
-    height: 300px;
+    height: 15vw;
     width: 20%;
 }
 .footer-p{
@@ -357,11 +368,14 @@ body{
         height: 1.2vw;
         bottom: 3vw;
     }
+    .card-heading-sec{
+        margin-bottom: 6vw;
+    }
     .card-heading-sec-p{
         font-size:3vw;
     }
     .card-title{
-        font-size: 15px;
+        font-size: 20px;
     }
     .c-btn-sm {
         font-size: 0.8rem;
@@ -385,6 +399,10 @@ body{
         margin-bottom: 50px;
         line-height: 1.6;
         font-size: 4.3vw;
+    }
+    .v-centered {
+        top:76%;
+        font-size: 4vw;
     }
     .image-sec{
         flex-wrap: wrap;
@@ -435,7 +453,7 @@ body{
     width: 90%;
 }
 .card{
-    width: 24rem;
+    width: 29rem;
 }
 .card-heading-sec-h1{
     font-size: 5vw;
@@ -466,7 +484,7 @@ body{
 
 
 .i-images{
-    height: 200px;
+    height: 250px;
     width: 50%;
 }
 .v-image{
@@ -477,5 +495,13 @@ body{
 .fitem{
  margin-bottom: 50px;   
 }
+.item1{
+    margin-top: 50px;
+}
 
 } 
+@media only screen and (max-width: 470px) {
+    .card{
+        width: 90%;
+    }
+}
